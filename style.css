@@ -38,3 +38,14 @@ h2 {
 .second {
     font-size: 3rem;
 }
+
+@media screen and (max-width: 500px) {
+    h2 {
+        font-size: 2rem;
+        font-weight: bold;
+        padding: 1rem;
+    }
+    .container-minute, .container-second {
+        display: none;
+    }
+  }
